@@ -38,20 +38,11 @@ This repository is designed so that **when users upload MRI images**, the system
 ```
 brain-tumor-detection/
 │
-├── model/
-│   └── model.h5                # Trained VGG16-based model
-│
-├── data/
-│   ├── Training/
-│   └── Testing/
-│
-├── notebooks/
-│   └── brain_tumor_detection.ipynb
-│
-├── inference.py                 # Image upload & prediction logic
-├── requirements.txt             # Python dependencies
-├── README.md
+├── brain_tumor_detection.ipynb   # Complete training + evaluation + inference code
+├── README.md                     # Project explanation
+├── requirements.txt              # Dependencies
 └── .gitignore
+
 ```
 
 ---
